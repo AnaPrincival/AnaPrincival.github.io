@@ -44,7 +44,7 @@
 
             <div class="header-text">
                 <p class="eyebrow">
-                    Electrical Engineering · Emerging Memories · Embedded AI
+                    Electrical and Electronics Engineer
                 </p>
 
                 <h1>Ana Paula Princival Machado</h1>
@@ -61,13 +61,21 @@
         aria-label="Main navigation"
     >
         <div class="nav-container">
-            <a href="#about_me">About</a>
+            <a href="#about_me">About Me</a>
             <a href="#publi">Publications</a>
-            <a href="#eng_eletrica">Electrical Engineering</a>
-            <a href="#ensicaen">ENSICAEN</a>
-            <a href="#pg">Technical High School</a>
+            <a href="#eng_eletrica">
+                Electrical Engineering (UFPR – Brazil)
+            </a>
+            <a href="#ensicaen">
+                Engineering Physics and Embedded Systems
+                (ENSICAEN – France)
+            </a>
+            <a href="#pg">
+                Technical High School in Oil and Gas (IFPR – Brazil)
+            </a>
             <a href="#lang">Languages</a>
-            <a href="#other_courses">Other Courses</a>
+            <a href="#other_courses">Additional Training</a>
+            <a href="#personal_interests">Personal Interests</a>
         </div>
     </nav>
 
@@ -128,6 +136,7 @@
 
                     <ul>
                         <li>Emerging memories</li>
+                        <li>Ferroelectric memories</li>
                         <li>Electrical characterization</li>
                         <li>Neuromorphic computing</li>
                         <li>Embedded AI</li>
@@ -152,7 +161,25 @@
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Currículo Lattes
+                    Lattes
+                </a>
+
+                <a
+                    class="social-btn orcid"
+                    href="https://orcid.org/0000-0002-7841-7311"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ORCID
+                </a>
+
+                <a
+                    class="social-btn scopus"
+                    href="https://www.scopus.com/authid/detail.uri?authorId=58037728500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Scopus
                 </a>
             </div>
         </section>
@@ -168,12 +195,64 @@
 
             <ul class="index-list">
                 <li>
+                    <a href="#about_me">About Me</a>
+                </li>
+
+                <li>
                     <a href="#publi">Publications</a>
+
+                    <ul class="subtopic publication-index">
+                        <li>
+                            <a href="#publication-jics">
+                                Selective Algorithm for Expanded Group Method
+                                of Data Handling Applied to Power Amplifier
+                                Modeling
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#publication-semicro-2021">
+                                Modelo Seletivo Aprimorado para Modelagem de
+                                Amplificadores de Potência usando GMDH
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#publication-semicro-2022">
+                                Algoritmo Seletivo com Diferentes Métodos de
+                                Extração para Modelagem de Amplificador de
+                                Potência Baseada em GMDH
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#publication-sforum-2021">
+                                Selective Algorithm for Group Method of Data
+                                Handling Applied to Power Amplifier Modeling
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#publication-sforum-2022">
+                                Real-valued Neural Network Based on Group
+                                Method of Data Handling Applied to Power
+                                Amplifier Modeling
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#publication-sim-2023">
+                                Selective Method with Adapted Activation
+                                Function and Applied in Non-linear Optimization
+                                for Modeling of Power Amplifiers
+                            </a>
+                        </li>
+                    </ul>
                 </li>
 
                 <li>
                     <a href="#eng_eletrica">
-                        Electrical Engineering Degree
+                        Electrical Engineering (UFPR – Brazil)
                     </a>
 
                     <ul class="subtopic">
@@ -211,8 +290,8 @@
 
                 <li>
                     <a href="#ensicaen">
-                        Engineering Degree – Génie Physique et Systèmes
-                        Embarqués
+                        Engineering Physics and Embedded Systems
+                        (ENSICAEN – France)
                     </a>
 
                     <ul class="subtopic">
@@ -238,7 +317,8 @@
 
                 <li>
                     <a href="#pg">
-                        Technical High School – Oil and Gas
+                        Technical High School in Oil and Gas
+                        (IFPR – Brazil)
                     </a>
                 </li>
 
@@ -257,7 +337,21 @@
                 </li>
 
                 <li>
-                    <a href="#other_courses">Other Courses</a>
+                    <a href="#other_courses">Additional Training</a>
+
+                    <ul class="subtopic course-index">
+                        <li>Arduino</li>
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>Introduction to Artificial Intelligence</li>
+                        <li>LaTeX</li>
+                        <li>MATLAB</li>
+                        <li>Python</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#personal_interests">Personal Interests</a>
                 </li>
             </ul>
         </section>
@@ -278,7 +372,7 @@
             </div>
 
             <ul class="publication-list">
-                <li>
+                <li id="publication-jics">
                     <strong>
                         Machado, A. P. P.; Nypwipwy, V. B.; França, C.;
                         Lima, E. G.
@@ -291,8 +385,11 @@
 
                     <em>
                         Journal of Integrated Circuits and Systems
-                    </em>,
-                    vol. 17, no. 2, 2022.
+                    </em>
+
+                    <span class="publication-details">
+                        Vol. 17, no. 2, 2022.
+                    </span>
 
                     <a
                         class="pdf-button"
@@ -305,7 +402,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li id="publication-semicro-2021">
                     <strong>
                         Machado, A. P. P.; Lima, E. G.
                     </strong>
@@ -317,8 +414,11 @@
 
                     <em>
                         Seminários de Microeletrônica do Paraná (SEMiCRO)
-                    </em>,
-                    Curitiba, Brazil, 2021.
+                    </em>
+
+                    <span class="publication-details">
+                        Curitiba, Brazil, 2021.
+                    </span>
 
                     <a
                         class="pdf-button"
@@ -331,7 +431,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li id="publication-semicro-2022">
                     <strong>
                         Machado, A. P. P.; Lima, E. G.
                     </strong>
@@ -344,8 +444,11 @@
 
                     <em>
                         Seminários de Microeletrônica do Paraná (SEMiCRO)
-                    </em>,
-                    Curitiba, Brazil, 2022.
+                    </em>
+
+                    <span class="publication-details">
+                        Curitiba, Brazil, 2022.
+                    </span>
 
                     <a
                         class="pdf-button"
@@ -358,7 +461,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li id="publication-sforum-2021">
                     <strong>
                         Machado, A. P. P.; Lima, E. G.
                     </strong>
@@ -370,8 +473,11 @@
 
                     <em>
                         XXI Microelectronics Students Forum (SForum)
-                    </em>,
-                    Campinas, Brazil, 2021.
+                    </em>
+
+                    <span class="publication-details">
+                        Campinas, Brazil, 2021.
+                    </span>
 
                     <a
                         class="pdf-button"
@@ -384,7 +490,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li id="publication-sforum-2022">
                     <strong>
                         Machado, A. P. P.; Lima, E. G.
                     </strong>
@@ -397,8 +503,11 @@
 
                     <em>
                         XXII Microelectronics Students Forum (SForum)
-                    </em>,
-                    2022.
+                    </em>
+
+                    <span class="publication-details">
+                        2022.
+                    </span>
 
                     <a
                         class="pdf-button"
@@ -411,7 +520,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li id="publication-sim-2023">
                     <strong>
                         Machado, A. P. P.; Lima, E. G.
                     </strong>
@@ -424,8 +533,11 @@
 
                     <em>
                         Simpósio Sul de Microeletrônica (SIM)
-                    </em>,
-                    2023.
+                    </em>
+
+                    <span class="publication-details">
+                        2023.
+                    </span>
 
                     <a
                         class="pdf-button"
@@ -966,8 +1078,7 @@
                 <span>International Education</span>
 
                 <h2>
-                    Engineering Degree in Génie Physique et Systèmes
-                    Embarqués
+                    Engineering Physics and Embedded Systems
                 </h2>
             </div>
 
@@ -1001,7 +1112,10 @@
                 was SATE
                 (Signal, Automatique et Télécom pour les embarqués), with
                 courses in control systems, telecommunications, signal
-                processing and embedded systems.
+                processing and embedded systems. I completed the program
+                in August 2025 and received the French
+                <em>Diplôme d’Ingénieur</em>, which confers the academic
+                grade of master in France.
             </p>
 
             <div class="social-buttons">
@@ -1016,19 +1130,20 @@
             </div>
 
             <p>
-                This was my first experience abroad and allowed me to
-                develop significantly in terms of autonomy, independence
-                and emotional intelligence. I broadened my worldview by
-                being immersed in a different culture while communicating,
-                studying and learning in a language other than my native
-                one.
+                This was my first experience living abroad and helped me
+                grow significantly in terms of autonomy, independence and
+                emotional intelligence. Being immersed in a different
+                culture while communicating, studying and learning in a
+                language other than my native one broadened my worldview.
             </p>
 
             <p>
-                The exchange opened the door to many opportunities. In
-                April 2024, ENSICAEN organized a trip to Nuremberg for
-                students to visit Embedded World, a major international
-                trade fair dedicated to embedded systems.
+                The exchange opened the door to many opportunities. For
+                example, in April 2024, ENSICAEN organized a student trip
+                to Nuremberg to attend Embedded World, a major international
+                trade fair dedicated to embedded systems. It was a unique
+                opportunity to discover the field in an international and
+                highly innovative environment.
             </p>
 
             <section
@@ -1133,19 +1248,19 @@
             class="content-section"
         >
             <div class="section-heading">
-                <span>Technical Foundation</span>
+                <span>Early Technical Education</span>
 
-                <h2>Technical High School – Oil and Gas</h2>
+                <h2>Technical High School in Oil and Gas</h2>
             </div>
 
             <p>
                 Between 2017 and 2019, I completed a technical high school
                 program in Oil and Gas at the Federal Institute of Paraná
-                in Curitiba, studying almost full-time. Each year, I took
-                around twenty subjects covering both the general curriculum
-                and Oil-and-Gas-specific courses such as electrical
-                systems, mechanics, fluid mechanics, pipelines, advanced
-                chemistry and petroleum refining.
+                (IFPR) in Curitiba, Brazil. I studied almost full-time and
+                took around twenty subjects each year, covering both the
+                general curriculum and Oil-and-Gas-specific topics such as
+                electrical systems, mechanics, fluid mechanics, pipelines,
+                advanced chemistry and petroleum refining.
             </p>
 
             <p>
@@ -1255,7 +1370,7 @@
                     <p>
                         I completed two years of French courses at Wizard
                         in 2021 and 2022. In October 2022, I took the TCF
-                        (Test de connaissance du français) and obtained a
+                        (Test de Connaissance du Français) and obtained a
                         B2 level.
                     </p>
 
@@ -1285,8 +1400,8 @@
             class="content-section"
         >
             <div class="section-heading">
-                <span>Additional Learning</span>
-                <h2>Other Courses</h2>
+                <span>Professional Development</span>
+                <h2>Additional Training</h2>
             </div>
 
             <p>
@@ -1396,6 +1511,74 @@
                     </a>
                 </li>
             </ul>
+        </section>
+
+        <section
+            id="personal_interests"
+            class="content-section personal-interests-section"
+        >
+            <div class="section-heading">
+                <span>Beyond Engineering</span>
+                <h2>Personal Interests</h2>
+            </div>
+
+            <div class="interest-grid">
+                <article class="interest-card">
+                    <h3>Travel, Cultures and History</h3>
+
+                    <p>
+                        One of my main personal interests is traveling,
+                        discovering other cultures and learning about the
+                        history of the places I visit. Moving to Europe
+                        broadened my worldview and gave me the opportunity
+                        to experience different cultures more closely.
+                        I am particularly passionate about Greek mythology,
+                        so visiting Athens was especially meaningful to me.
+                        I have also had the opportunity to travel across
+                        several European countries.
+                    </p>
+
+                    <div
+                        class="country-flags"
+                        aria-label="European countries I have visited"
+                    >
+                        <span title="France">🇫🇷</span>
+                        <span title="England">🇬🇧</span>
+                        <span title="Switzerland">🇨🇭</span>
+                        <span title="Italy">🇮🇹</span>
+                        <span title="Spain">🇪🇸</span>
+                        <span title="The Netherlands">🇳🇱</span>
+                        <span title="Belgium">🇧🇪</span>
+                        <span title="Luxembourg">🇱🇺</span>
+                        <span title="Germany">🇩🇪</span>
+                        <span title="Greece">🇬🇷</span>
+                    </div>
+                </article>
+
+                <article class="interest-card">
+                    <h3>Running</h3>
+
+                    <p>
+                        I also run regularly to support both my physical
+                        and mental well-being. I do not consider myself a
+                        competitive runner, but I enjoy the consistency,
+                        discipline and sense of progress that running brings
+                        to my routine.
+                    </p>
+                </article>
+
+                <article class="interest-card">
+                    <h3>Cooking</h3>
+
+                    <p>
+                        I love cooking, especially Brazilian food. Preparing
+                        familiar dishes is one of the ways I stay connected
+                        to home while living far away, and it also allows me
+                        to share a little of Brazilian culture with the
+                        people around me.
+                    </p>
+                </article>
+            </div>
         </section>
     </main>
 
